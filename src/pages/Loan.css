@@ -1,0 +1,38 @@
+/* Loan.css */
+
+.loan-row {
+    transition: background-color 0.3s ease;
+  }
+  
+  .loan-row:hover {
+    background-color: #fcfcfc;
+  }
+  
+  .active {
+    background-color: #dff0d8; /* Light green for active loans */
+    color: rgb(82, 132, 8);
+}
+  
+  .completed {
+    background-color: #f2dede; /* Light red for completed loans */
+    color: #a94442; /* Dark red text color for completed loans */
+  }
+
+
+  .lo {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #121111; /* Add a white border around the table */
+  }
+  
+  
+.r {
+    padding: 15px; /* Add padding to each cell */
+    text-align: left;
+  }
+  
+  /* Optional: Add space between columns */
+  td:not(:last-child), th:not(:last-child) {
+    border-right: 1px solid #ddd; /* Add a border to the right of each cell except the last one */
+  }
